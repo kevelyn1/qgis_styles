@@ -1,0 +1,1098 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols>
+    <symbol tags="LOTR" alpha="1" force_rhr="0" type="marker" name="lotr_cities" clip_to_extent="1">
+      <layer enabled="1" pass="0" locked="0" class="SimpleMarker">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="112,112,112,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="name" v="square"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="87,87,87,255"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="size" v="2.6"/>
+        <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+        <effect type="effectStack" enabled="1">
+          <effect type="dropShadow">
+            <prop k="blend_mode" v="13"/>
+            <prop k="blur_level" v="2.645"/>
+            <prop k="blur_unit" v="MM"/>
+            <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="0"/>
+            <prop k="offset_angle" v="135"/>
+            <prop k="offset_distance" v="2"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="opacity" v="1"/>
+          </effect>
+          <effect type="outerGlow">
+            <prop k="blend_mode" v="0"/>
+            <prop k="blur_level" v="0.845"/>
+            <prop k="blur_unit" v="MM"/>
+            <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
+            <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="1"/>
+            <prop k="opacity" v="0.5"/>
+            <prop k="rampType" v="gradient"/>
+            <prop k="single_color" v="76,76,76,255"/>
+            <prop k="spread" v="0.8"/>
+            <prop k="spread_unit" v="MM"/>
+            <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+          </effect>
+          <effect type="drawSource">
+            <prop k="blend_mode" v="0"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="1"/>
+            <prop k="opacity" v="1"/>
+          </effect>
+          <effect type="innerShadow">
+            <prop k="blend_mode" v="13"/>
+            <prop k="blur_level" v="2.645"/>
+            <prop k="blur_unit" v="MM"/>
+            <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="0"/>
+            <prop k="offset_angle" v="135"/>
+            <prop k="offset_distance" v="2"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="opacity" v="1"/>
+          </effect>
+          <effect type="innerGlow">
+            <prop k="blend_mode" v="0"/>
+            <prop k="blur_level" v="2.645"/>
+            <prop k="blur_unit" v="MM"/>
+            <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
+            <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="1"/>
+            <prop k="opacity" v="0.5"/>
+            <prop k="rampType" v="gradient"/>
+            <prop k="single_color" v="76,76,76,255"/>
+            <prop k="spread" v="2"/>
+            <prop k="spread_unit" v="MM"/>
+            <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+          </effect>
+        </effect>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol tags="LOTR" alpha="0.683" force_rhr="0" type="fill" name="lotr_forests" clip_to_extent="1">
+      <layer enabled="1" pass="0" locked="0" class="PointPatternFill">
+        <prop k="displacement_x" v="2.4"/>
+        <prop k="displacement_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="1"/>
+        <prop k="displacement_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="distance_x" v="1.4"/>
+        <prop k="distance_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="2"/>
+        <prop k="distance_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="offset_x" v="1.2"/>
+        <prop k="offset_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="0"/>
+        <prop k="offset_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <effect type="effectStack" enabled="1">
+          <effect type="dropShadow">
+            <prop k="blend_mode" v="13"/>
+            <prop k="blur_level" v="2.645"/>
+            <prop k="blur_unit" v="MM"/>
+            <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="0"/>
+            <prop k="offset_angle" v="135"/>
+            <prop k="offset_distance" v="2"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="opacity" v="1"/>
+          </effect>
+          <effect type="outerGlow">
+            <prop k="blend_mode" v="0"/>
+            <prop k="blur_level" v="0.1"/>
+            <prop k="blur_unit" v="MM"/>
+            <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
+            <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="1"/>
+            <prop k="opacity" v="0.5"/>
+            <prop k="rampType" v="gradient"/>
+            <prop k="single_color" v="87,87,87,255"/>
+            <prop k="spread" v="0.01"/>
+            <prop k="spread_unit" v="MM"/>
+            <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+          </effect>
+          <effect type="drawSource">
+            <prop k="blend_mode" v="0"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="1"/>
+            <prop k="opacity" v="1"/>
+          </effect>
+          <effect type="innerShadow">
+            <prop k="blend_mode" v="13"/>
+            <prop k="blur_level" v="2.645"/>
+            <prop k="blur_unit" v="MM"/>
+            <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="0"/>
+            <prop k="offset_angle" v="135"/>
+            <prop k="offset_distance" v="2"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="opacity" v="1"/>
+          </effect>
+          <effect type="innerGlow">
+            <prop k="blend_mode" v="0"/>
+            <prop k="blur_level" v="2.645"/>
+            <prop k="blur_unit" v="MM"/>
+            <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
+            <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="0"/>
+            <prop k="opacity" v="0.5"/>
+            <prop k="rampType" v="gradient"/>
+            <prop k="single_color" v="255,255,255,255"/>
+            <prop k="spread" v="2"/>
+            <prop k="spread_unit" v="MM"/>
+            <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+          </effect>
+        </effect>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <symbol alpha="1" force_rhr="0" type="marker" name="@lotr_forests@0" clip_to_extent="1">
+          <layer enabled="1" pass="0" locked="0" class="RasterMarker">
+            <prop k="alpha" v="1"/>
+            <prop k="angle" v="0"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="imageFile" v="F:/30daysmapschallenge/lord_of_the_rings/tree4.png"/>
+            <prop k="offset" v="0.00000000000000006,0"/>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="1.75054"/>
+            <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol tags="LOTR" alpha="1" force_rhr="0" type="fill" name="lotr_marshland" clip_to_extent="1">
+      <layer enabled="1" pass="0" locked="0" class="PointPatternFill">
+        <prop k="displacement_x" v="5"/>
+        <prop k="displacement_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="1.6"/>
+        <prop k="displacement_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="distance_x" v="11.4"/>
+        <prop k="distance_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="6.6"/>
+        <prop k="distance_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="offset_x" v="0"/>
+        <prop k="offset_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="0"/>
+        <prop k="offset_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <symbol alpha="1" force_rhr="0" type="marker" name="@lotr_marshland@0" clip_to_extent="1">
+          <layer enabled="1" pass="0" locked="0" class="SimpleMarker">
+            <prop k="angle" v="90"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="line"/>
+            <prop k="offset" v="0.80000000000000004,1.39999999999999991"/>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="87,87,87,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0.4"/>
+            <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2.2"/>
+            <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+          <layer enabled="1" pass="0" locked="0" class="SimpleMarker">
+            <prop k="angle" v="90"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="line"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="87,87,87,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0.4"/>
+            <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="3.8"/>
+            <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+          <layer enabled="1" pass="0" locked="0" class="SimpleMarker">
+            <prop k="angle" v="90"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="line"/>
+            <prop k="offset" v="-0.80000000000000004,1.79999999999999982"/>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="87,87,87,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0.4"/>
+            <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="3.8"/>
+            <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+      <layer enabled="1" pass="0" locked="0" class="PointPatternFill">
+        <prop k="displacement_x" v="1.8"/>
+        <prop k="displacement_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="1.4"/>
+        <prop k="displacement_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="distance_x" v="3.6"/>
+        <prop k="distance_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="3"/>
+        <prop k="distance_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="offset_x" v="0"/>
+        <prop k="offset_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="0"/>
+        <prop k="offset_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <symbol alpha="1" force_rhr="0" type="marker" name="@lotr_marshland@1" clip_to_extent="1">
+          <layer enabled="1" pass="0" locked="0" class="RasterMarker">
+            <prop k="alpha" v="1"/>
+            <prop k="angle" v="0"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="imageFile" v="F:/30daysmapschallenge/lord_of_the_rings/marsh1.png"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="1.4"/>
+            <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol tags="LOTR" alpha="1" force_rhr="0" type="fill" name="lotr_paper" clip_to_extent="1">
+      <layer enabled="1" pass="0" locked="0" class="SimpleFill">
+        <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="color" v="233,218,184,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="35,35,35,255"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_width" v="0.26"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+      <layer enabled="1" pass="0" locked="0" class="RasterFill">
+        <prop k="alpha" v="0.32"/>
+        <prop k="angle" v="0"/>
+        <prop k="coordinate_mode" v="0"/>
+        <prop k="imageFile" v="F:/30daysmapschallenge/lord_of_the_rings/paper_texture2.png"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="width" v="0"/>
+        <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="width_unit" v="Pixel"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol tags="LOTR" alpha="0.574" force_rhr="0" type="line" name="lotr_rivers" clip_to_extent="1">
+      <layer enabled="1" pass="0" locked="0" class="SimpleLine">
+        <prop k="capstyle" v="round"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="line_color" v="2,71,139,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.1"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="ring_filter" v="0"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <effect type="effectStack" enabled="1">
+          <effect type="dropShadow">
+            <prop k="blend_mode" v="13"/>
+            <prop k="blur_level" v="2.645"/>
+            <prop k="blur_unit" v="MM"/>
+            <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="0"/>
+            <prop k="offset_angle" v="135"/>
+            <prop k="offset_distance" v="2"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="opacity" v="1"/>
+          </effect>
+          <effect type="outerGlow">
+            <prop k="blend_mode" v="0"/>
+            <prop k="blur_level" v="0.045"/>
+            <prop k="blur_unit" v="MM"/>
+            <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
+            <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="1"/>
+            <prop k="opacity" v="0.7"/>
+            <prop k="rampType" v="gradient"/>
+            <prop k="single_color" v="0,93,155,255"/>
+            <prop k="spread" v="0.15"/>
+            <prop k="spread_unit" v="MM"/>
+            <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+          </effect>
+          <effect type="drawSource">
+            <prop k="blend_mode" v="0"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="1"/>
+            <prop k="opacity" v="0.6"/>
+          </effect>
+          <effect type="innerShadow">
+            <prop k="blend_mode" v="13"/>
+            <prop k="blur_level" v="2.645"/>
+            <prop k="blur_unit" v="MM"/>
+            <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="0"/>
+            <prop k="offset_angle" v="135"/>
+            <prop k="offset_distance" v="2"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="opacity" v="1"/>
+          </effect>
+          <effect type="innerGlow">
+            <prop k="blend_mode" v="0"/>
+            <prop k="blur_level" v="2.645"/>
+            <prop k="blur_unit" v="MM"/>
+            <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
+            <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="0"/>
+            <prop k="opacity" v="0.5"/>
+            <prop k="rampType" v="gradient"/>
+            <prop k="single_color" v="255,255,255,255"/>
+            <prop k="spread" v="2"/>
+            <prop k="spread_unit" v="MM"/>
+            <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+          </effect>
+        </effect>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol tags="LOTR" alpha="1" force_rhr="0" type="line" name="lotr_roads" clip_to_extent="1">
+      <layer enabled="1" pass="0" locked="0" class="SimpleLine">
+        <prop k="capstyle" v="round"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="line_color" v="76,76,76,255"/>
+        <prop k="line_style" v="dot"/>
+        <prop k="line_width" v="0.26"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="ring_filter" v="0"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol tags="LOTR" alpha="1" force_rhr="0" type="fill" name="lotr_shoreline" clip_to_extent="1">
+      <layer enabled="1" pass="0" locked="0" class="SimpleLine">
+        <prop k="capstyle" v="round"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="line_color" v="112,112,112,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.16"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="offset" v="-1.8"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="ring_filter" v="0"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+      <layer enabled="1" pass="0" locked="0" class="SimpleLine">
+        <prop k="capstyle" v="round"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="line_color" v="112,112,112,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.16"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="offset" v="-0.8"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="ring_filter" v="0"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+      <layer enabled="1" pass="0" locked="0" class="SimpleLine">
+        <prop k="capstyle" v="square"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="line_color" v="112,112,112,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.16"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="offset" v="-0.4"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="ring_filter" v="0"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+      <layer enabled="1" pass="0" locked="0" class="SimpleLine">
+        <prop k="capstyle" v="square"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="line_color" v="112,112,112,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.4"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="offset" v="5.55112e-17"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="ring_filter" v="0"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol tags="Showcase" alpha="1" force_rhr="0" type="fill" name="mountains" clip_to_extent="1">
+      <layer enabled="1" pass="0" locked="0" class="PointPatternFill">
+        <prop k="displacement_x" v="3"/>
+        <prop k="displacement_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="3"/>
+        <prop k="displacement_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="distance_x" v="4.2"/>
+        <prop k="distance_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="4.2"/>
+        <prop k="distance_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="offset_x" v="1.6"/>
+        <prop k="offset_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="2"/>
+        <prop k="offset_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <symbol alpha="1" force_rhr="0" type="marker" name="@mountains@0" clip_to_extent="1">
+          <layer enabled="1" pass="0" locked="0" class="RasterMarker">
+            <prop k="alpha" v="1"/>
+            <prop k="angle" v="0"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="imageFile" v="F:/30daysmapschallenge/lord_of_the_rings/mountain.png"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2.4"/>
+            <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+      <layer enabled="1" pass="0" locked="0" class="PointPatternFill">
+        <prop k="displacement_x" v="1.2"/>
+        <prop k="displacement_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="1.2"/>
+        <prop k="displacement_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="distance_x" v="4.2"/>
+        <prop k="distance_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="4.2"/>
+        <prop k="distance_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="offset_x" v="1.6"/>
+        <prop k="offset_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="2"/>
+        <prop k="offset_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <symbol alpha="1" force_rhr="0" type="marker" name="@mountains@1" clip_to_extent="1">
+          <layer enabled="1" pass="0" locked="0" class="RasterMarker">
+            <prop k="alpha" v="1"/>
+            <prop k="angle" v="0"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="imageFile" v="F:/30daysmapschallenge/lord_of_the_rings/mountain.png"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2.4"/>
+            <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+      <layer enabled="1" pass="0" locked="0" class="PointPatternFill">
+        <prop k="displacement_x" v="1.8"/>
+        <prop k="displacement_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="0.8"/>
+        <prop k="displacement_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="distance_x" v="3.8"/>
+        <prop k="distance_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="3.8"/>
+        <prop k="distance_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="offset_x" v="1.6"/>
+        <prop k="offset_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="2"/>
+        <prop k="offset_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <symbol alpha="1" force_rhr="0" type="marker" name="@mountains@2" clip_to_extent="1">
+          <layer enabled="1" pass="0" locked="0" class="RasterMarker">
+            <prop k="alpha" v="1"/>
+            <prop k="angle" v="0"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="imageFile" v="F:/30daysmapschallenge/lord_of_the_rings/mountain.png"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2.4"/>
+            <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+      <layer enabled="1" pass="0" locked="0" class="PointPatternFill">
+        <prop k="displacement_x" v="10"/>
+        <prop k="displacement_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="10"/>
+        <prop k="displacement_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="distance_x" v="7"/>
+        <prop k="distance_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="7"/>
+        <prop k="distance_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="offset_x" v="1.6"/>
+        <prop k="offset_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="2"/>
+        <prop k="offset_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <symbol alpha="1" force_rhr="0" type="marker" name="@mountains@3" clip_to_extent="1">
+          <layer enabled="1" pass="0" locked="0" class="RasterMarker">
+            <prop k="alpha" v="1"/>
+            <prop k="angle" v="0"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="imageFile" v="F:/30daysmapschallenge/lord_of_the_rings/mountain.png"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="4.2"/>
+            <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+      <layer enabled="1" pass="0" locked="0" class="PointPatternFill">
+        <prop k="displacement_x" v="4"/>
+        <prop k="displacement_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="4"/>
+        <prop k="displacement_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="distance_x" v="14"/>
+        <prop k="distance_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="14"/>
+        <prop k="distance_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="offset_x" v="1.6"/>
+        <prop k="offset_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="2"/>
+        <prop k="offset_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <symbol alpha="1" force_rhr="0" type="marker" name="@mountains@4" clip_to_extent="1">
+          <layer enabled="1" pass="0" locked="0" class="RasterMarker">
+            <prop k="alpha" v="1"/>
+            <prop k="angle" v="0"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="imageFile" v="F:/30daysmapschallenge/lord_of_the_rings/mountain.png"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="5.4"/>
+            <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+      <layer enabled="1" pass="0" locked="0" class="PointPatternFill">
+        <prop k="displacement_x" v="1.2"/>
+        <prop k="displacement_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="1.2"/>
+        <prop k="displacement_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="distance_x" v="7"/>
+        <prop k="distance_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="7"/>
+        <prop k="distance_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="offset_x" v="1.6"/>
+        <prop k="offset_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="2"/>
+        <prop k="offset_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <symbol alpha="1" force_rhr="0" type="marker" name="@mountains@5" clip_to_extent="1">
+          <layer enabled="1" pass="0" locked="0" class="RasterMarker">
+            <prop k="alpha" v="1"/>
+            <prop k="angle" v="0"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="imageFile" v="F:/30daysmapschallenge/lord_of_the_rings/mountain.png"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="5.4"/>
+            <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+      <layer enabled="1" pass="0" locked="0" class="PointPatternFill">
+        <prop k="displacement_x" v="6.4"/>
+        <prop k="displacement_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="3.6"/>
+        <prop k="displacement_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="distance_x" v="10"/>
+        <prop k="distance_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="10"/>
+        <prop k="distance_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="offset_x" v="3"/>
+        <prop k="offset_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="9.4"/>
+        <prop k="offset_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <symbol alpha="1" force_rhr="0" type="marker" name="@mountains@6" clip_to_extent="1">
+          <layer enabled="1" pass="0" locked="0" class="RasterMarker">
+            <prop k="alpha" v="1"/>
+            <prop k="angle" v="0"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="imageFile" v="F:/30daysmapschallenge/lord_of_the_rings/mountain.png"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="4.2"/>
+            <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+      <layer enabled="1" pass="0" locked="0" class="PointPatternFill">
+        <prop k="displacement_x" v="8.4"/>
+        <prop k="displacement_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="6.6"/>
+        <prop k="displacement_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="distance_x" v="13"/>
+        <prop k="distance_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="13"/>
+        <prop k="distance_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="offset_x" v="3"/>
+        <prop k="offset_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="9.4"/>
+        <prop k="offset_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <symbol alpha="1" force_rhr="0" type="marker" name="@mountains@7" clip_to_extent="1">
+          <layer enabled="1" pass="0" locked="0" class="RasterMarker">
+            <prop k="alpha" v="1"/>
+            <prop k="angle" v="0"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="imageFile" v="F:/30daysmapschallenge/lord_of_the_rings/mountain.png"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="7"/>
+            <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+  <textformats/>
+  <labelsettings/>
+</qgis_style>
