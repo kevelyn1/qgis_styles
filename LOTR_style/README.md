@@ -2,13 +2,21 @@
 
 The styles are created by using QGIS and for some raster markers and effects also Photoshop was used.
 The collection includes:
+
 The background paper style: lotr_paper
+
 The coastline: lotr_shoreline (offset of lines can be either negative or positive depending whether you are using the land or sea to create the shoreline).
+
 The mashland: lotr_marshland
+
 The forest: lotr_forests
+
 The rivers: lotr_river
+
 The roads: lotr_roads
+
 The cities: lotr_cities
+
 The highlands: lotr_highlands
 
 The three different mountain styles to use as separate images.
