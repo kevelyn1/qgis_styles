@@ -22,6 +22,7 @@ The highlands: lotr_highlands
 The three different mountain styles to use as separate images.
 The image for the north arrow: north arrow.png
 
+
 To use the styles with raster images, you need to change the folder path of the images in the xml file.
 
 
