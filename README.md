@@ -7,6 +7,6 @@
 
 
 ## Australian Aboriginal style
-![Aboriginal style](https://github.com/kevelyn1/qgis_styles/blob/master/indigenous/australia.png)
+![Aboriginal style](https://github.com/kevelyn1/qgis_styles/blob/master/indigenous/australia1.png)
 
 
