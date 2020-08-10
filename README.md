@@ -4,3 +4,9 @@
 
 ## Lord of the Rings styles
 ![LOTR style](https://github.com/kevelyn1/qgis_styles/blob/master/LOTR_style/lotr_estonia.png)
+
+
+## Australian Aboriginal style
+![Aboriginal style](https://github.com/kevelyn1/qgis_styles/blob/master/indigenous/australia.png)
+
+
