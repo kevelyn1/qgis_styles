@@ -11,3 +11,6 @@
 
 ## Papercut elevation style
 <img src="https://github.com/kevelyn1/qgis_styles/blob/master/papercut_style/papercut_lowr.png" width="590">
+
+## Icy style
+<img src="https://github.com/kevelyn1/qgis_styles/blob/master/icy_style/icy_Estonia.jpeg" width="590">
